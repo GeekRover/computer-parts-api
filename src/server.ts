@@ -4,7 +4,6 @@ import { routeHandler } from "./routes/routes";
 const server: Server = createServer((req: IncomingMessage, res) => {
   //   console.log(req.url, req.method);
   routeHandler(req, res);
-  
 });
 
 server.listen(5000, () => {
