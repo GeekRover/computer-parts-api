@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "name": "Intel Core i7-13700K",
+    "category": "CPU",
+    "price": 399.99,
+    "description": "High-performance desktop processor with 16 cores and 24 threads.",
+    "brand": "Intel",
+    "specs": {
+      "cores": 16,
+      "threads": 24,
+      "base_clock": "3.4 GHz",
+      "boost_clock": "5.4 GHz",
+      "socket": "LGA 1700"
+    }
+  },
+  {
+    "id": 2,
+    "name": "AMD Ryzen 7 7800X3D",
+    "category": "CPU",
+    "price": 449.99,
+    "description": "Gaming-focused CPU with 3D V-Cache technology.",
+    "brand": "AMD",
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "base_clock": "4.2 GHz",
+      "boost_clock": "5.0 GHz",
+      "socket": "AM5"
+    }
+  },
+  {
+    "id": 3,
+    "name": "NVIDIA GeForce RTX 4070",
+    "category": "GPU",
+    "price": 599.99,
+    "description": "Mid-range graphics card with ray tracing and DLSS support.",
+    "brand": "NVIDIA",
+    "specs": {
+      "memory": "12 GB GDDR6X",
+      "core_clock": "1920 MHz",
+      "boost_clock": "2475 MHz",
+      "cuda_cores": 5888
+    }
+  },
+  {
+    "id": 4,
+    "name": "AMD Radeon RX 7800 XT",
+    "category": "GPU",
+    "price": 499.99,
+    "description": "Competitive graphics card with excellent 1440p performance.",
+    "brand": "AMD",
+    "specs": {
+      "memory": "16 GB GDDR6",
+      "game_clock": "1295 MHz",
+      "boost_clock": "2430 MHz",
+      "stream_processors": 3584
+    }
+  },
+  {
+    "id": 5,
+    "name": "Corsair Vengeance LPX 32GB DDR4-3200",
+    "category": "RAM",
+    "price": 89.99,
+    "description": "High-speed DDR4 memory kit for gaming and productivity.",
+    "brand": "Corsair",
+    "specs": {
+      "capacity": "32 GB (2x16GB)",
+      "speed": "DDR4-3200",
+      "latency": "CL16",
+      "voltage": "1.35V"
+    }
+  },
+  {
+    "id": 6,
+    "name": "G.Skill Ripjaws V 16GB DDR4-3600",
+    "category": "RAM",
+    "price": 64.99,
+    "description": "Performance-oriented RAM with tight timings.",
+    "brand": "G.Skill",
+    "specs": {
+      "capacity": "16 GB (2x8GB)",
+      "speed": "DDR4-3600",
+      "latency": "CL16",
+      "voltage": "1.35V"
+    }
+  },
+  {
+    "id": 7,
+    "name": "ASUS ROG Strix Z690-E",
+    "category": "Motherboard",
+    "price": 329.99,
+    "description": "Premium ATX motherboard with extensive connectivity options.",
+    "brand": "ASUS",
+    "specs": {
+      "socket": "LGA 1700",
+      "chipset": "Intel Z690",
+      "form_factor": "ATX",
+      "memory_slots": 4,
+      "max_memory": "128 GB"
+    }
+  },
+  {
+    "id": 8,
+    "name": "MSI B650 Tomahawk",
+    "category": "Motherboard",
+    "price": 199.99,
+    "description": "Reliable AM5 motherboard with good VRM design.",
+    "brand": "MSI",
+    "specs": {
+      "socket": "AM5",
+      "chipset": "AMD B650",
+      "form_factor": "ATX",
+      "memory_slots": 4,
+      "max_memory": "128 GB"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Samsung 980 PRO 1TB NVMe SSD",
+    "category": "Storage",
+    "price": 89.99,
+    "description": "High-speed NVMe SSD with PCIe 4.0 interface.",
+    "brand": "Samsung",
+    "specs": {
+      "capacity": "1 TB",
+      "interface": "PCIe 4.0 x4",
+      "read_speed": "7000 MB/s",
+      "write_speed": "5100 MB/s",
+      "form_factor": "M.2 2280"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Western Digital Blue 2TB HDD",
+    "category": "Storage",
+    "price": 54.99,
+    "description": "Reliable 3.5-inch HDD for mass storage needs.",
+    "brand": "Western Digital",
+    "specs": {
+      "capacity": "2 TB",
+      "interface": "SATA 6 Gb/s",
+      "rpm": 5400,
+      "cache": "256 MB",
+      "form_factor": "3.5-inch"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Corsair RM750x 750W PSU",
+    "category": "PSU",
+    "price": 129.99,
+    "description": "80+ Gold certified modular power supply.",
+    "brand": "Corsair",
+    "specs": {
+      "wattage": "750 W",
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fan_size": "135mm"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Fractal Design Define 7",
+    "category": "Case",
+    "price": 149.99,
+    "description": "Silent mid-tower case with excellent airflow.",
+    "brand": "Fractal Design",
+    "specs": {
+      "form_factor": "Mid Tower",
+      "motherboard_support": "ATX, Micro-ATX, Mini-ITX",
+      "max_gpu_length": "400mm",
+      "max_cpu_cooler_height": "170mm",
+      "fans_included": "2x 140mm"
+    }
+  }
+]
