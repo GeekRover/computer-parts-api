@@ -9,7 +9,9 @@ export const routeHandler = (req: IncomingMessage, res: ServerResponse) => {
   if (url === "/" && method === "GET") {
     res.writeHead(200, { "content-type": "application/json" });
     res.end(JSON.stringify({ message: "This is root route" }));
-  } else if (url?.startsWith("/product") && method === "GET") {
+  }
+  //get all products
+  else if (url?.startsWith("/product") && method === "GET") {
     productHandler(req, res);
     readProducts();
   } else {
