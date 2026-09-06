@@ -9,3 +9,4 @@ export interface Product {
   battery: string;
   camera: string;
 }
+// Hello from the other side

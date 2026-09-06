@@ -1,7 +1,6 @@
 import type { IncomingMessage, ServerResponse } from "http";
 import { productController } from "../controller/products.controller";
 
-
 export const routerController = (req: IncomingMessage, res: ServerResponse) => {
   const url = req.url;
   const method = req.method;
@@ -15,3 +14,5 @@ export const routerController = (req: IncomingMessage, res: ServerResponse) => {
     res.end("Dir not found");
   }
 };
+
+// This is the routes haahahahahahaha
